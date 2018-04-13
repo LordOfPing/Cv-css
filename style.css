@@ -1,0 +1,205 @@
+@font-face {
+    font-family: "Rubik-Regular";
+    src: url("Rubik/Rubik-Regular.ttf") format("truetype");
+    scr: url("Rubik/Rubik-Black.ttf") format("truetype"),
+         url("Rubik/Rubik-Bold.ttf") format("truetype"),
+         url("Rubik/Rubik-Bolditalic.ttf") format("truetype"),
+         url("Rubik/Rubik-Italic.ttf") format("truetype"),
+         url("Rubik/Rubik-Light.ttf") format("truetype"),
+         url("Rubik/Rubik-LightItalic.ttf") format("truetype"),
+         url("Rubik/Rubik-Medium.ttf") format("truetype"),
+         url("Rubik/Rubik-MediumItalic.ttf") format("truetype"),
+}
+p,h1
+{
+    margin: 0;
+}
+
+a
+{
+    color: white;
+    background-color: #1565c0;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: white;
+    background-color: #5e92f3;
+    padding: 10px;
+    text-decoration: none;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: url("img/grey.png");
+    font-family: Rubik-Regular;
+}
+
+.menu
+{
+    width: 100%;
+    height: 80px;
+    background-color:#003c8f;
+    position: fixed;
+    z-index: 1;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bordure
+{
+    background-color: #1565c0;
+    height: 35px;
+}
+
+.alignement
+{
+    width: 90%;
+    margin: auto;
+}
+
+#menutop
+{
+    margin-right: 15%;
+    width: 40%;
+    margin-top: 20%
+}
+
+#lienlater
+{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    margin-top: 0;
+    width: 100%;
+    font-size: 10px;
+    list-style-type: none
+}
+
+.corpus
+{
+    width: 80%;
+    background-color:rgb(200, 200, 200);
+    margin-left: 10%;
+    border-radius: 10px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 80px;
+    margin-top: 100px;
+}
+
+.entete
+{
+    height: 400px;
+    width: 90%;;
+    display: flex;  
+    margin-top: 50px ;
+}
+
+#photo
+{
+    width: 30%;
+    height: 400px;
+    background-color: #1565c0;
+    display: flex;
+    justify-content: center;  
+    box-sizing: border-box;
+}
+
+#info
+{
+    height: 400px;
+    width: 70%;
+    background-color:white;
+
+}
+
+#num
+{
+    background-color: #5e92f3;
+    width: 100%;
+    height: 200px;
+}
+.job
+{
+    display: flex;
+    justify-content: center;
+}
+#job
+{
+    margin-top: 75px
+}
+
+#pdp 
+{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+img {
+	max-width: 100%;
+}
+.parcour ,.competence ,.exppro ,.manag ,.lang ,.passion ,.contact
+{
+    background-color:whitesmoke;
+    margin-top: 80px;
+    width: 90%;
+    box-shadow: 2px 2px rgb(70, 65, 65);
+    padding-bottom: 50px;
+}
+
+.ancre
+{
+    display: block; 
+    height: 100px;
+    margin-top: -100px;
+    visibility: hidden;
+}
+hr
+{
+    border: 0;
+    height: 55px;
+    background-image: url(hr/hrpac.png);
+    background-repeat: no-repeat;
+}
+
+.con
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.zop
+{
+    height: 220px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.zep
+{
+    height: 180px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+textarea
+{
+     resize:none;
+     width: 100%
+}
+
+#subm
+{
+    width: 100px;
+}
